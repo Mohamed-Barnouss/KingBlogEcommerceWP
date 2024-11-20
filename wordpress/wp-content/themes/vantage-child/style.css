@@ -1,0 +1,198 @@
+/*
+Theme Name: Vantage Child
+Theme URI: https://siteorigin.com/theme/vantage/
+Template: vantage
+Author: SiteOrigin
+Author URI: https://siteorigin.com/
+Description: Vantage is a flexible multipurpose theme. Its strength lies in its tight integration with some powerful plugins like Page Builder for responsive page layouts, Smart Slider 3 for big beautiful sliders and WooCommerce to help you sell online. Vantage is fully responsive and retina ready. Use it to start a business site, portfolio or online store. We offer free support on our forum (https://siteorigin.com/thread/).
+Tags: two-columns,left-sidebar,right-sidebar,grid-layout,custom-background,custom-colors,custom-menu,custom-logo,featured-images,footer-widgets,full-width-template,post-formats,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready,blog,e-commerce
+Version: 1.20.26.1728408509
+Updated: 2024-10-08 19:28:29
+
+*/
+
+p{
+	font-size:2rem;
+}
+
+#pg-64-0.panel-has-style > .panel-row-style, #pg-64-0.panel-no-style, #pg-64-1.panel-has-style > .panel-row-style, #pg-64-1.panel-no-style {
+    -webkit-align-items: flex-start;
+    align-items: center;
+}
+
+.site-description{
+	font-size:2rem
+}
+
+.site-description{
+	font-size:2rem !important;
+}
+/*
+.widget img {
+    height: 38rem !important;
+    width: 38rem;
+}
+*/
+.panel-grid-cell .widget-title {
+    margin-top: 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.article.post .entry-header h1.entry-title a, article.page .entry-header h1.entry-title a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+article.post, article.page {
+    zoom: 1;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid darkred;
+}
+
+.article.post .entry-header .entry-thumbnail, article.page .entry-header .entry-thumbnail {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.metaslider .caption {
+    padding: 5px 10px;
+    word-wrap: break-word;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+/*SELECT BAR*/
+.widget select{
+height: 3rem;
+font-size: 1.8rem;
+}
+
+
+/*nav*/
+
+.main-navigation ul li:hover > a,
+.main-navigation ul li.focus > a {
+  background: red;
+  color: #fff;
+}
+
+
+
+.main-navigation ul ul li:hover,
+.main-navigation ul ul li:focus,
+.main-navigation ul ul li:active{
+    background-color:red !important;
+}
+
+/*PERSONALIZZATO*/
+p{
+	font-size: 2rem;
+}
+
+#pg-64-0.panel-has-style > .panel-row-style, #pg-64-0.panel-no-style, #pg-64-1.panel-has-style > .panel-row-style, #pg-64-1.panel-no-style {
+    -webkit-align-items: flex-start;
+    align-items: center;
+}
+
+/*HEADER*/
+
+#masthead .hgroup .site-description {
+    clear: both;
+    color: black;
+    font-style: italic;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+/*background header*/
+#masthead {
+    background: #fcfcfc;
+    /* padding: 0 35px 0 35px; */
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    zoom: 1;
+    background-image: url(http://localhost/blogking/wordpress/wp-content/uploads/2024/10/shining2.png);
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    background-position: 5% 21%;
+    background-size: 100%;
+}
+
+/*header tablet*/
+@media screen and(max-width:800px){
+	#masterhead{
+		background-position:10% 0%; 
+	}
+}
+
+
+/*header schermo per larghezza massima 681px*/
+@media screen and (max-width: 681px) {
+  #masthead {
+		background: #fcfcfc;align-content
+	}
+}
+/*FINE HEADER*/
+
+/*sub-menu*/
+.main-navigation ul ul a:hover, .main-navigation ul ul a:active {
+    background-color:red !important;
+}
+
+
+/*slider*/
+.vantage-carousel-title .vantage-carousel-title-text {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/*buttons slider*/
+.vantage-carousel-title a.next, .vantage-carousel-title a.previous {
+    background: #3a3a3a;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    float: right;
+    overflow: hidden;
+    background-position: center center;
+    margin-left: 5px;
+    padding: 8px 8px 7px 7px;
+    margin-top: 1rem;
+}
+
+.vantage-carousel-title a.next:hover, .vantage-carousel-title a.previous:hover {
+    background-color: red;
+	transform:scale(1.3)
+}
+
+
+/*SHOP*/
+
+select {
+    border: 1px solid #ccc;
+    max-width: 100%;
+    font-size: 2rem;
+}
+
+.woocommerce:where(body:not(.woocommerce-uses-block-theme)) ul.products li.product .price {
+    color: red;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
